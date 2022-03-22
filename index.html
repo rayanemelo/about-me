@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allison&family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Stoke:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    <title>About me</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="">About me</a></li>
+            <li><a href=""></a>Projects</li>
+            <li><a href=""></a>Cats</li>
+            <li><a href=""></a>Autoria&Design</li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <main class="container">
+        <section id="my-name">
+            <div class="my-name">
+                <h1>RayaneMelo</h1>
+            </div>
+        </section>
+        <section>
+            <div class="container-info">
+                <div class="title">
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div class="info">
+                    <div>
+                        <p>age: 20 years</p>
+                        <p>location: Taquara, RS, Brazil</p>
+                        <p>college: FACCAT</p>
+                        <p>job: web developer</p>
+                        <p>company: lighthouse</p>
+                    </div>
+                    <div class="midias-sociais">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/rayane-melo-castilhos-a4083b203/" target="blank"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:raymeloc@gmail.com" target="blank"><i
+                                        class="fa-solid fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rayanemelo" target="blank"><i
+                                        class="fa-brands fa-github"></i></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/rayanee.melo/" target="blank"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-info">
+                <div class="title">
+                    <h2>Projects</h2>
+                </div>
+                <div class="info">
+                    <ul>
+                        <li class="project-itens">
+                            <p onclick="openModal()">panvel clinic</p>
+                        </li>
+                        <li class="project-itens">
+                            <p onclick="openModal()">grazziotin</p>
+                        </li>
+                        <li class="project-itens">
+                            <p onclick="openModal()">lighthouse</p>
+                        </li>
+                    </ul>
+                    <div class="modal" id="modal">
+                        <div class="container-modal">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            
+            <div class="container-info">
+                <div class="title">
+                    <h2>Cats</h2>
+                </div>
+            </div>
+            <div class="cats">
+                <div>
+                    <p>Sebastian</p>
+                    <img>
+                </div>
+                <div>
+                    <p>Snow</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script>
+
+    const modal = document.querySelector("#modal");
+
+    const openModal = () => {
+        modal.style.display = "flex";
+
+    }
+</script>
+
+</html>
