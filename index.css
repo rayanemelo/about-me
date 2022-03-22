@@ -1,73 +1,78 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a, a:visited, a:hover, a:active{
-    text-decoration:none;
+a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
     color: inherit;
 }
 
-ul{
-    list-style-type:none;
+ul {
+    list-style-type: none;
 }
 
 header ul {
-display: flex;
-justify-content: flex-end;
-margin:4px 9px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 4px 9px;
 }
 
-header ul>li{
+header ul>li {
     margin: 0 30px 0 1px;
     font-weight: bold;
     font-family: 'Italiana', serif;
-    color:#2d2d2d;
+    color: #2d2d2d;
     cursor: pointer;
     letter-spacing: 0.4px;
 }
 
-header ul>li:hover{
+header ul>li:hover {
     color: #666;
     opacity: 0.8;
 }
 
-.container{
-    background:#d4d0c9;
-    margin:0 8px 24px;
- }
+.container {
+    background: #d0c9d4;
+    margin: 0 8px 24px;
+}
 
-.my-name{
-    display:flex;
+.my-name {
+    display: flex;
     align-items: center;
     flex-direction: column;
- }
+}
 
-.my-name h1{
+.my-name h1 {
     font-weight: 500;
     font-family: 'Allison', cursive;
     font-size: 100px;
     padding: 70px 0;
-    color:#2d2d2d;
+    color: #2d2d2d;
     letter-spacing: -3px;
 }
 
-.container-info{
-    display:flex;
+.container-info {
+    display: flex;
     width: 100%;
-    margin-top:100px;
+    margin-top: 100px;
 }
-.container-info .title{
+
+.container-info .title {
     width: 50%;
     display: flex;
     justify-content: flex-end;
     font-family: 'Italiana';
-    color: #222;
+    color: #2d2d2d;
     text-transform: uppercase;
     margin-right: 3px;
 }
 
-.container-info .info, .cats p{
+.container-info .info,
+.cats p {
     width: 50%;
     display: flex;
     justify-content: flex-start;
@@ -82,7 +87,7 @@ header ul>li:hover{
     line-height: 31px;
 }
 
-.container-info .info .midias-sociais ul{
+.container-info .info .midias-sociais ul {
     display: flex;
     align-items: center;
     text-align: center;
@@ -90,9 +95,10 @@ header ul>li:hover{
     margin-right: 20px;
     margin-top: 15px;
 }
-.container-info .info .midias-sociais a{
+
+.container-info .info .midias-sociais a {
     background: #9B9B9B;
-    color:#fff;
+    color: #fff;
     height: 40px;
     width: 40px;
     border-radius: 100%;
@@ -100,47 +106,58 @@ header ul>li:hover{
     justify-content: center;
     align-items: center;
     margin-right: 16px;
-    
+
 }
 
-.container-info .info .midias-sociais a:hover{
-    background:#2d2d2d
+.container-info .info .midias-sociais a:hover {
+    background: #2d2d2d
 }
 
-.modal{
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    padding-top: 100px; 
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
-    overflow: auto; 
-    background-color: rgba(0,0,0,0.4);
-    
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
 }
-.modal .container-modal{
+
+.modal .container-modal {
     height: 100px;
     width: 100px;
-    background-color:#fff;
+    background-color: #fff;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.project-itens{
-cursor: pointer;
+.project-itens {
+    cursor: pointer;
 }
 
-.cats{
-    display:flex;
+.cats {
+    display: flex;
 }
 
-.cats div{
-    width:50%;
-    display:flex;
+.cats {
+    width: 100%;
+    display: flex;
     justify-content: center;
 }
 
+.cats img {
+    margin: 15px 10px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px
+}
+
+.autoria-design {
+    text-align: justify;
+    max-width: 80vh;
+    margin-bottom: 50px
+}
