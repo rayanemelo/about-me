@@ -16,16 +16,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>About me</title>
 </head>
-<header>
-    <nav>
-        <ul>
-            <li><a href="">About me</a></li>
-            <li><a href=""></a>Projects</li>
-            <li><a href=""></a>Cats</li>
-            <li><a href=""></a>Autoria&Design</li>
-        </ul>
-    </nav>
-</header>
 
 <body>
     <main class="container">
@@ -71,6 +61,8 @@
                             </li>
                         </ul>
                     </div>
+                    <div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -81,21 +73,16 @@
                 </div>
                 <div class="info">
                     <ul>
-                        <li class="project-itens">
-                            <p onclick="openModal()">panvel clinic</p>
+                        <li>
+                            <p>panvel clinic</p>
                         </li>
-                        <li class="project-itens">
-                            <p onclick="openModal()">grazziotin</p>
+                        <li>
+                            <p>grazziotin web and mobile</p>
                         </li>
-                        <li class="project-itens">
-                            <p onclick="openModal()">lighthouse</p>
+                        <li>
+                            <p>lighthouse landpage</p>
                         </li>
                     </ul>
-                    <div class="modal" id="modal">
-                        <div class="container-modal">
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -110,8 +97,8 @@
             </div>
 
             <div class="cats">
-                <img src="./assets/images/cats.jpeg">
-                <img src="./assets/images/cats1.jpeg">
+                <img src="./assets/cats.jpeg" alt="my cats">
+                <img src="./assets/cats1.jpeg" alt="my cats">
             </div>
         </section>
         <section>
@@ -120,27 +107,14 @@
                     <h2>Autoria&Design</h2>
                 </div>
                 <div class="info">
-                    <p class="autoria-design">apesar de eu já ter um conhecimento razoável sobre html, css e javascript,
-                        sempre tento tirar proveito do que estou estudando, com o objetivo de aprender coisas que eu
-                        ainda não sei e descobrir novas
-                        formas de pensar ao estruturar meus projetos web.
-                        <br>Então o que eu espero desta matéria, é
-                        justamente isso.
+                    <p class="autoria-design">
+                        Com a disciplina de autoria e design, eu espero aproveitar da melhor forma, com o objetivo de
+                        aprender coisas novas e desenvolver o que eu já sei.
                     </p>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
-<script>
-
-    const modal = document.querySelector("#modal");
-
-    const openModal = () => {
-        modal.style.display = "flex";
-
-    }
-</script>
 
 </html>

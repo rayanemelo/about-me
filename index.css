@@ -15,29 +15,9 @@ ul {
     list-style-type: none;
 }
 
-header ul {
-    display: flex;
-    justify-content: flex-end;
-    margin: 4px 9px;
-}
-
-header ul>li {
-    margin: 0 30px 0 1px;
-    font-weight: bold;
-    font-family: 'Italiana', serif;
-    color: #2d2d2d;
-    cursor: pointer;
-    letter-spacing: 0.4px;
-}
-
-header ul>li:hover {
-    color: #666;
-    opacity: 0.8;
-}
-
 .container {
     background: #d0c9d4;
-    margin: 0 8px 24px;
+    margin: 24px 8px;
 }
 
 .my-name {
@@ -106,38 +86,10 @@ header ul>li:hover {
     justify-content: center;
     align-items: center;
     margin-right: 16px;
-
 }
 
 .container-info .info .midias-sociais a:hover {
     background: #2d2d2d
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-.modal .container-modal {
-    height: 100px;
-    width: 100px;
-    background-color: #fff;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-itens {
-    cursor: pointer;
 }
 
 .cats {
@@ -153,7 +105,8 @@ header ul>li:hover {
 .cats img {
     margin: 15px 10px 0;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 5px
+    border-radius: 5px;
+    max-width: 25em;
 }
 
 .autoria-design {
